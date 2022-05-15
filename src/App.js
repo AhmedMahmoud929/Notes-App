@@ -151,7 +151,7 @@ function App() {
           <div className="preview">
             <Routes>
               <Route
-                path="/create/*"
+                path="/Notes-App/create/*"
                 element={
                   <Create
                     title={title}
@@ -165,11 +165,11 @@ function App() {
                 }
               />
               <Route
-                path="/edit"
+                path="/Notes-App/edit"
                 element={<Edit doneNotes={dones} returnNote={returnNote} />}
               />
               <Route
-                path="/notes"
+                path="/Notes-App/notes"
                 element={
                   <Notes
                     notes={notes}
@@ -179,7 +179,7 @@ function App() {
                 }
               />
               <Route
-                path="/account"
+                path="/Notes-App/account"
                 element={
                   <Account
                     AllNotesCounter={notes.length}
