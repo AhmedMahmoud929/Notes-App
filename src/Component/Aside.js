@@ -10,26 +10,26 @@ function Aside() {
     <div className="Aside">
       <ul>
         <li>
-          <NavLink to="/create">
+          <NavLink to="/Notes-App/create">
       <AiFillPlusCircle/>
             Create
           </NavLink>
         </li>
         <li>
-          <NavLink to="/notes">
+          <NavLink to="/Notes-App/notes">
           <FaClipboardList className="noteIcon" />
           Notes
           </NavLink>
         </li>
         <li>
-          <NavLink to="/edit">
+          <NavLink to="/Notes-App/edit">
             <AiOutlineFileDone className="editIcon"/>
             Done
             </NavLink>
         </li>
         <li>
         
-          <NavLink to="/account">
+          <NavLink to="/Notes-App/account">
           <FaUser/>
           Account</NavLink>
         </li>
